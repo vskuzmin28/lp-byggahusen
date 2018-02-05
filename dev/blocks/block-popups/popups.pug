@@ -1,73 +1,27 @@
-// вызвать замерщика (для кнопки под замер)
+// popup
 
-// call expert
+.popup.popup-call
 
-.popup.call-expert
+	.popup-body
 
-	// icon close
+		h4
+			| Оставьте заявку на <br/> обратный звонок
 
-	a.popup__icon-close(href="#" title="")
-		img(src="../img/icon-close.png" alt="")
+		.popup__line
 
-	h4
-		| Вызвать замерщика
+		p
+			| Перезвоним в течении 30 минут
 
-	p
-		| Для того чтобы узнаит точную стоимость работ пригласите нашего замерщика БЕСПЛАТНО:- Он приедет в удобное Вам время- Произведет все необходимые замеры- Проконсультирует Вас по всем вопросам
-
-	form.send-form(action="../mail.php" method="post")
-		.popup__input
-			input(type="text" name="name" placeholder="Введите Ваше имя" required)
-		.popup__input
-			input(type="text" name="tel" placeholder="Введите Ваш телефон" required)
-		.popup__button
-			input(type="hidden" id="action" name="action" value="submitform")
-			input.button-blue(type="submit" value="Вызвать замерщика")
-
-// Заказать звонок (Оставить заявку, консультация менеджера)
-
-.popup.manager-consultation
-
-	// icon close
-
-	a.popup__icon-close(href="#" title="")
-		img(src="../img/icon-close.png" alt="")
-
-	h4
-		| Заказать звонок
-
-	form.send-form(action="../mail.php" method="post")
-		.popup__input
-			input(type="text" name="name" placeholder="Введите Ваше имя" required)
-		.popup__input
-			input(type="text" name="tel" placeholder="Введите Ваш телефон" required)
-		.popup__button
-			input(type="hidden" id="action" name="action" value="submitform")
-			input.button-blue(type="submit" value="Заказать")
-
-// Сделайте заказ (для акций)
-
-.popup.make-an-order
-
-	// icon close
-
-	a.popup__icon-close(href="#" title="")
-		img(src="../img/icon-close.png" alt="")
-
-	h4
-		| Сделайте заказ
-
-	p
-		| прямо сейчас
-
-	form.send-form(action="../mail.php" method="post")
-		.popup__input
-			input(type="text" name="name" placeholder="Введите Ваше имя" required)
-		.popup__input
-			input(type="text" name="tel" placeholder="Введите Ваш телефон" required)
-		.popup__button
-			input(type="hidden" id="action" name="action" value="submitform")
-			input.button-blue(type="submit" value="Перезвоните мне")
+		form.send-form(action="../mail.php" method="post")
+			.popup__input
+				input(type="text" name="name" placeholder="Имя" required)
+			.popup__input
+				input(type="text" ndame="tel" placeholder="Телефон" required)
+			.popup__input
+				input(type="text" ndame="tel" placeholder="E-mail" required)
+			.popup__button
+				input(type="hidden" id="action" name="action" value="submitform")
+				input.btn-green(type="submit" value="Вызвать замерщика")
 
 // thanks
 

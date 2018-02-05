@@ -1,57 +1,26 @@
 
-<!-- вызвать замерщика (для кнопки под замер)-->
-<!-- call expert-->
-<div class="popup call-expert">
-  <!-- icon close--><a class="popup__icon-close" href="#" title=""><img src="../img/icon-close.png" alt=""/></a>
-  <h4>Вызвать замерщика</h4>
-  <p>Для того чтобы узнаит точную стоимость работ пригласите нашего замерщика БЕСПЛАТНО:- Он приедет в удобное Вам время- Произведет все необходимые замеры- Проконсультирует Вас по всем вопросам</p>
-  <form class="send-form" action="../mail.php" method="post">
-    <div class="popup__input">
-      <input type="text" name="name" placeholder="Введите Ваше имя" required="required"/>
-    </div>
-    <div class="popup__input">
-      <input type="text" name="tel" placeholder="Введите Ваш телефон" required="required"/>
-    </div>
-    <div class="popup__button">
-      <input type="hidden" id="action" name="action" value="submitform"/>
-      <input class="button-blue" type="submit" value="Вызвать замерщика"/>
-    </div>
-  </form>
-</div>
-<!-- Заказать звонок (Оставить заявку, консультация менеджера)-->
-<div class="popup manager-consultation">
-  <!-- icon close--><a class="popup__icon-close" href="#" title=""><img src="../img/icon-close.png" alt=""/></a>
-  <h4>Заказать звонок</h4>
-  <form class="send-form" action="../mail.php" method="post">
-    <div class="popup__input">
-      <input type="text" name="name" placeholder="Введите Ваше имя" required="required"/>
-    </div>
-    <div class="popup__input">
-      <input type="text" name="tel" placeholder="Введите Ваш телефон" required="required"/>
-    </div>
-    <div class="popup__button">
-      <input type="hidden" id="action" name="action" value="submitform"/>
-      <input class="button-blue" type="submit" value="Заказать"/>
-    </div>
-  </form>
-</div>
-<!-- Сделайте заказ (для акций)-->
-<div class="popup make-an-order">
-  <!-- icon close--><a class="popup__icon-close" href="#" title=""><img src="../img/icon-close.png" alt=""/></a>
-  <h4>Сделайте заказ</h4>
-  <p>прямо сейчас</p>
-  <form class="send-form" action="../mail.php" method="post">
-    <div class="popup__input">
-      <input type="text" name="name" placeholder="Введите Ваше имя" required="required"/>
-    </div>
-    <div class="popup__input">
-      <input type="text" name="tel" placeholder="Введите Ваш телефон" required="required"/>
-    </div>
-    <div class="popup__button">
-      <input type="hidden" id="action" name="action" value="submitform"/>
-      <input class="button-blue" type="submit" value="Перезвоните мне"/>
-    </div>
-  </form>
+<!-- popup-->
+<div class="popup popup-call">
+  <div class="popup-body">
+    <h4>Оставьте заявку на <br/> обратный звонок</h4>
+    <div class="popup__line"></div>
+    <p>Перезвоним в течении 30 минут</p>
+    <form class="send-form" action="../mail.php" method="post">
+      <div class="popup__input">
+        <input type="text" name="name" placeholder="Имя" required="required"/>
+      </div>
+      <div class="popup__input">
+        <input type="text" ndame="tel" placeholder="Телефон" required="required"/>
+      </div>
+      <div class="popup__input">
+        <input type="text" ndame="tel" placeholder="E-mail" required="required"/>
+      </div>
+      <div class="popup__button">
+        <input type="hidden" id="action" name="action" value="submitform"/>
+        <input class="btn-green" type="submit" value="Вызвать замерщика"/>
+      </div>
+    </form>
+  </div>
 </div>
 <!-- thanks-->
 <div class="popup popup-thanks">

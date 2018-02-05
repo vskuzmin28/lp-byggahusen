@@ -1,9 +1,10 @@
 // call popup
 
-$('.link-call-expert').click(function(e){
+$('.popup-call').hide();
+$('.link-popup-call').click(function(e){
   e.preventDefault();
-  $('.call-expert').bPopup({
-    closeClass:'popup__icon-close',
+  $('.popup-call').bPopup({
+    //closeClass:'popup__icon-close',
       amsl: 0,
       positionStyle: 'fixed',
     })

@@ -61,7 +61,7 @@
             <div class="header__phone-number phone-number"><a href="tel:99999999999" title="">+7 (495) 374-66-40</a></div>
           </div>
           <div class="col-md-1">
-            <!-- call button--><a class="header__call-button btn btn-green btn-normal" href="#" title="">Обратный звонок</a>
+            <!-- call button--><a class="header__call-button btn btn-green btn-normal link-popup-call" href="#" title="">Обратный звонок</a>
           </div>
         </div>
       </div>
@@ -146,7 +146,7 @@
               <!-- content-->
               <div class="dream-house__item-one__conteiner__content">
                 <h5>Дом под ключ</h5>
-                <p>Вам останется только <br/> расставить мебель и пригласить <br/> гостей на новоселье!</p><span>от 15 000 руб/м2</span><a class="btn-green" href="#" title="">Подробнее</a>
+                <p>Вам останется только <br/> расставить мебель и пригласить <br/> гостей на новоселье!</p><span>от 15 000 руб/м2</span><a class="btn-green link-popup-call" href="#" title="">Подробнее</a>
               </div>
             </div>
           </div>
@@ -157,7 +157,7 @@
             <!-- content-->
             <div class="dream-house__item-two__conteiner__content">
               <h5>Дом под ключ</h5>
-              <p>Вам останется только <br/> расставить мебель и пригласить <br/> гостей на новоселье!</p><span>от 15 000 руб/м2</span><a class="btn-green" href="#" title="">Подробнее</a>
+              <p>Вам останется только <br/> расставить мебель и пригласить <br/> гостей на новоселье!</p><span>от 15 000 руб/м2</span><a class="btn-green link-popup-call" href="#" title="">Подробнее</a>
             </div>
           </div>
         </div>
@@ -231,7 +231,7 @@
                       <div class="projects__item__detail__description">
                         <p>Площадь: 205 м2</p>
                         <p>Размеры: 11,7м x 9,5м</p>
-                      </div><a class="btn-green" href="#" title="">Подробнее</a>
+                      </div><a class="btn-green link-popup-call" href="#" title="">Подробнее</a>
                     </div>
                   </div>
                   <!-- house-->
@@ -245,13 +245,43 @@
                       <div class="projects__item__detail__description">
                         <p>Площадь: 205 м2</p>
                         <p>Размеры: 11,7м x 9,5м</p>
-                      </div><a class="btn-green" href="#" title="">Подробнее</a>
+                      </div><a class="btn-green link-popup-call" href="#" title="">Подробнее</a>
                     </div>
                   </div>
                 </li>
                 <!-- / item-->
                 <!-- item-->
-                <li>222</li>
+                <li>
+                  <!-- house-->
+                  <div class="projects__item">
+                    <!--title-->
+                    <div class="projects__item__title">«Название» проекта</div>
+                    <!-- preview-->
+                    <div class="projects__item__preview"><a href="#" title=""><img src="../img/projects/project-1.jpg" alt="@@"></a></div>
+                    <!-- detail-->
+                    <div class="projects__item__detail">
+                      <div class="projects__item__detail__description">
+                        <p>Площадь: 205 м2</p>
+                        <p>Размеры: 11,7м x 9,5м</p>
+                      </div><a class="btn-green link-popup-call" href="#" title="">Подробнее</a>
+                    </div>
+                  </div>
+                  <!-- house-->
+                  <div class="projects__item">
+                    <!--title-->
+                    <div class="projects__item__title">«Название» проекта</div>
+                    <!-- preview-->
+                    <div class="projects__item__preview"><a href="#" title=""><img src="../img/projects/project-2.jpg" alt="@@"></a></div>
+                    <!-- detail-->
+                    <div class="projects__item__detail">
+                      <div class="projects__item__detail__description">
+                        <p>Площадь: 205 м2</p>
+                        <p>Размеры: 11,7м x 9,5м</p>
+                      </div><a class="btn-green link-popup-call" href="#" title="">Подробнее</a>
+                    </div>
+                  </div>
+                </li>
+                <!-- / item-->
               </ul>
             </div>
           </div>
@@ -295,7 +325,7 @@
                 <div class="home-device-show-6"></div>
               </div>
             </div>
-            <!-- link--><a class="btn-green" href="#" title="">Получить консультацию архитектора</a>
+            <!-- link--><a class="btn-green link-popup-call" href="#" title="">Получить консультацию архитектора</a>
           </div>
         </div>
       </div>
@@ -583,59 +613,28 @@
       </div>
     </footer>
     <!-- popups-->
-    <!-- вызвать замерщика (для кнопки под замер)-->
-    <!-- call expert-->
-    <div class="popup call-expert">
-      <!-- icon close--><a class="popup__icon-close" href="#" title=""><img src="../img/icon-close.png" alt=""></a>
-      <h4>Вызвать замерщика</h4>
-      <p>Для того чтобы узнаит точную стоимость работ пригласите нашего замерщика БЕСПЛАТНО:- Он приедет в удобное Вам время- Произведет все необходимые замеры- Проконсультирует Вас по всем вопросам</p>
-      <form class="send-form" action="../mail.php" method="post">
-        <div class="popup__input">
-          <input type="text" name="name" placeholder="Введите Ваше имя" required>
-        </div>
-        <div class="popup__input">
-          <input type="text" name="tel" placeholder="Введите Ваш телефон" required>
-        </div>
-        <div class="popup__button">
-          <input type="hidden" id="action" name="action" value="submitform">
-          <input class="button-blue" type="submit" value="Вызвать замерщика">
-        </div>
-      </form>
-    </div>
-    <!-- Заказать звонок (Оставить заявку, консультация менеджера)-->
-    <div class="popup manager-consultation">
-      <!-- icon close--><a class="popup__icon-close" href="#" title=""><img src="../img/icon-close.png" alt=""></a>
-      <h4>Заказать звонок</h4>
-      <form class="send-form" action="../mail.php" method="post">
-        <div class="popup__input">
-          <input type="text" name="name" placeholder="Введите Ваше имя" required>
-        </div>
-        <div class="popup__input">
-          <input type="text" name="tel" placeholder="Введите Ваш телефон" required>
-        </div>
-        <div class="popup__button">
-          <input type="hidden" id="action" name="action" value="submitform">
-          <input class="button-blue" type="submit" value="Заказать">
-        </div>
-      </form>
-    </div>
-    <!-- Сделайте заказ (для акций)-->
-    <div class="popup make-an-order">
-      <!-- icon close--><a class="popup__icon-close" href="#" title=""><img src="../img/icon-close.png" alt=""></a>
-      <h4>Сделайте заказ</h4>
-      <p>прямо сейчас</p>
-      <form class="send-form" action="../mail.php" method="post">
-        <div class="popup__input">
-          <input type="text" name="name" placeholder="Введите Ваше имя" required>
-        </div>
-        <div class="popup__input">
-          <input type="text" name="tel" placeholder="Введите Ваш телефон" required>
-        </div>
-        <div class="popup__button">
-          <input type="hidden" id="action" name="action" value="submitform">
-          <input class="button-blue" type="submit" value="Перезвоните мне">
-        </div>
-      </form>
+    <!-- popup-->
+    <div class="popup popup-call">
+      <div class="popup-body">
+        <h4>Оставьте заявку на <br/> обратный звонок</h4>
+        <div class="popup__line"></div>
+        <p>Перезвоним в течении 30 минут</p>
+        <form class="send-form" action="../mail.php" method="post">
+          <div class="popup__input">
+            <input type="text" name="name" placeholder="Имя" required>
+          </div>
+          <div class="popup__input">
+            <input type="text" ndame="tel" placeholder="Телефон" required>
+          </div>
+          <div class="popup__input">
+            <input type="text" ndame="tel" placeholder="E-mail" required>
+          </div>
+          <div class="popup__button">
+            <input type="hidden" id="action" name="action" value="submitform">
+            <input class="btn-green" type="submit" value="Вызвать замерщика">
+          </div>
+        </form>
+      </div>
     </div>
     <!-- thanks-->
     <div class="popup popup-thanks">
