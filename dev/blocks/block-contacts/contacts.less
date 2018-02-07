@@ -1,0 +1,68 @@
+@media only screen and (min-width : @desktop) {
+
+	// contacts
+
+	.contacts  {
+		height: auto;
+		margin-bottom: 60px;
+	}
+
+	// form
+
+	.contacts__form {
+
+		input[type="text"] {
+			margin-bottom: 38px;
+			width: 100%;
+			padding: 0 20px;
+			height: 60px;
+			border: 1px solid @green;
+			border-radius: 3px;
+
+			font: 16px 'mullerlight';
+			color: #686868;
+		}
+
+		input[type="submit"] {
+			
+			border: 0;
+			border-radius: 3px;
+			width: 290px;
+			height: 56px;
+			margin: 0 auto;
+			margin-top: 6px;
+
+			&:hover {
+				background: @black;
+			}
+
+		}
+
+		textarea {
+			margin-bottom: 38px;
+			width: 100%;
+			height: 160px;
+			resize: none;
+			padding: 20px;
+			border: 1px solid @green;
+			border-radius: 3px;
+
+			font: 16px 'mullerlight';
+			color: #686868;
+		}
+
+	}
+
+	.contacts__form__btn {
+		width: 290px;
+		height: 56px;
+		//overflow: hidden;
+		margin: 0 auto;
+	}
+
+	#map {
+		width: 100%;
+		height: 600px;
+	}
+
+}

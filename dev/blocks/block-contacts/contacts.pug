@@ -1,0 +1,79 @@
+// contacts
+
+main
+
+	// container
+
+	.container.contacts
+
+		// row
+
+		.row
+
+			.col-md-6
+
+				.main__text-content
+
+					h3
+						| KONTAKTA OSS
+
+					.main__green-line
+
+					p
+						| Har du frågor, funderingar eller behöver du rådgivning inför kommande byggplaner så går det givetvis bra att ringa eller skicka e-post till oss. Vi gör vårt yttersta för att besvara alla frågor så snabbt som möjligt.
+
+					h4
+						| 1111
+
+					p
+						| Du når oss enklast via info@byggahusen.se eller på telefon 08 12 410 276.
+
+					h4
+						| RING OSS
+
+					p
+						| MÅNDAG TILL FREDAG KL: 09:00-18:00
+
+					p
+						| 08 12 410 276
+
+			.col-md-6
+
+				// form
+
+				form.contacts__form(action="" metod="post")
+
+					// row
+
+					.row
+
+						.col-md-6
+							p
+								| Namn
+							input(type="text" placeholder="Ditt namn")
+
+						.col-md-6
+							p
+								| E-post
+							input(type="text" placeholder="Din e-post")
+
+					// row
+
+					.row
+
+						.col-md-6
+							p
+								| Telefon
+							input(type="text" placeholder="Din telefon")
+
+							.contacts__form__btn
+								input.btn-green(type="submit" value="Skicka")
+
+						.col-md-6
+							p
+								| Ditt meddelande 
+							textarea
+								| Ditt meddelande
+
+
+	#map
