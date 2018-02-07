@@ -62,6 +62,17 @@ $('.projects-block').responsiveSlides({
   //namespace: "centered-controls"
 })
 
+// card
+
+$('.card-block').responsiveSlides({
+  auto: false,
+  pager: true,
+  nav: false,
+  speed: 500,
+  maxwidth: 9999,
+  //namespace: "centered-controls"
+})
+
 // view full review in slider
 
 $('.review-show').click(function(e){
