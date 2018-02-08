@@ -3,54 +3,57 @@
 	// navigation
 
 	.nav {
-		height: 58px;
+		height: auto;
 
 		ul {
+
 			list-style: none;
 			height: auto;
 
 			li {
-				display: inline-block;
+				display: block;
 				height: 58px;
 			}
 
 			li a, li a:hover {
-				padding: 0 72px;
+				//padding: 0 72px;
+				padding-left: 30px;
 				height: 58px;
-				float: left;
+				width: auto;
+				float: none;
 				font: 20px 'mullermedium';
 				color: @grey-dark;
 				text-decoration: none;
 				line-height: 58px;
 				transition: none;
 
-				&:hover {
-					background: @green;
-					color: @white;
-					position: relative;
-				}
+				//&:hover {
+				//	background: @green;
+				//	color: @white;
+				//	position: relative;
+				//}
 
-				&:hover:after {
-    				content: '';
-    				position: absolute;
-    				left: 0;
-    				top: 0;
-    				border-top: 58px solid @white;
-    				border-right: 28px solid @green;	
-				}
+				//&:hover:after {
+    			//	content: '';
+    			//	position: absolute;
+    			//	left: 0;
+    			//	top: 0;
+    			//	border-top: 58px solid @white;
+    			//	border-right: 28px solid @green;	
+				//}
 
-				&:hover:before {
-    				content: '';
-    				position: absolute;
-    				right: 0;
-    				top: 0px;
-    				border-bottom: 58px solid @white;
-    				border-left: 28px solid @green;
-				}
+				//&:hover:before {
+    			//	content: '';
+    			//	position: absolute;
+    			//	right: 0;
+    			//	top: 0px;
+    			//	border-bottom: 58px solid @white;
+    			//	border-left: 28px solid @green;
+				//}
 
-				&:nth-child(2) {
-					padding: 0 20px;
-				}
+				//&:nth-child(2) {
+				//	padding: 0 20px;
+				//}
 
 			}
 
