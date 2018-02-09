@@ -141,3 +141,7 @@ $('.portfolio__item__tabs__tab-two').click(function(e){
           map: map
         });
       }
+
+$('.nav-click').click(function(){
+  $('.nav').toggle();
+})
