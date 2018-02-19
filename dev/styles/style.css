@@ -678,100 +678,6 @@ ul {
   }
 }
 @media only screen and (min-width: 1100px) {
-  .contacts {
-    height: auto;
-    margin-bottom: 60px;
-  }
-  .contacts__form input[type="text"] {
-    margin-bottom: 38px;
-    width: 100%;
-    padding: 0 20px;
-    height: 60px;
-    border: 1px solid #80a535;
-    border-radius: 3px;
-    font: 16px 'mullerlight';
-    color: #686868;
-  }
-  .contacts__form input[type="submit"] {
-    border: 0;
-    border-radius: 3px;
-    width: 290px;
-    height: 56px;
-    margin: 0 auto;
-    margin-top: 6px;
-  }
-  .contacts__form input[type="submit"]:hover {
-    background: #000;
-  }
-  .contacts__form textarea {
-    margin-bottom: 38px;
-    width: 100%;
-    height: 160px;
-    resize: none;
-    padding: 20px;
-    border: 1px solid #80a535;
-    border-radius: 3px;
-    font: 16px 'mullerlight';
-    color: #686868;
-  }
-  .contacts__form__btn {
-    width: 290px;
-    height: 56px;
-    margin: 0 auto;
-  }
-  #map {
-    width: 100%;
-    height: 600px;
-  }
-}
-@media only screen and (min-width: 320px) and (max-width: 1100px) {
-  .contacts {
-    height: auto;
-    margin-bottom: 60px;
-  }
-  .contacts__form input[type="text"] {
-    margin-bottom: 38px;
-    width: 100%;
-    padding: 0 20px;
-    height: 60px;
-    border: 1px solid #80a535;
-    border-radius: 3px;
-    font: 16px 'mullerlight';
-    color: #686868;
-  }
-  .contacts__form input[type="submit"] {
-    border: 0;
-    border-radius: 3px;
-    width: 290px;
-    height: 56px;
-    margin: 0 auto;
-    margin-top: 6px;
-  }
-  .contacts__form input[type="submit"]:hover {
-    background: #000;
-  }
-  .contacts__form textarea {
-    margin-bottom: 38px;
-    width: 100%;
-    height: 160px;
-    resize: none;
-    padding: 20px;
-    border: 1px solid #80a535;
-    border-radius: 3px;
-    font: 16px 'mullerlight';
-    color: #686868;
-  }
-  .contacts__form__btn {
-    width: 290px;
-    height: 56px;
-    margin: 0 auto;
-  }
-  #map {
-    width: 100%;
-    height: 600px;
-  }
-}
-@media only screen and (min-width: 1100px) {
   .dream-house {
     height: auto;
     background: #f9f9f9;
@@ -992,6 +898,100 @@ ul {
   .dream-house__item-two__conteiner__content a:hover:hover {
     background: #000;
     color: #fff;
+  }
+}
+@media only screen and (min-width: 1100px) {
+  .contacts {
+    height: auto;
+    margin-bottom: 60px;
+  }
+  .contacts__form input[type="text"] {
+    margin-bottom: 38px;
+    width: 100%;
+    padding: 0 20px;
+    height: 60px;
+    border: 1px solid #80a535;
+    border-radius: 3px;
+    font: 16px 'mullerlight';
+    color: #686868;
+  }
+  .contacts__form input[type="submit"] {
+    border: 0;
+    border-radius: 3px;
+    width: 290px;
+    height: 56px;
+    margin: 0 auto;
+    margin-top: 6px;
+  }
+  .contacts__form input[type="submit"]:hover {
+    background: #000;
+  }
+  .contacts__form textarea {
+    margin-bottom: 38px;
+    width: 100%;
+    height: 160px;
+    resize: none;
+    padding: 20px;
+    border: 1px solid #80a535;
+    border-radius: 3px;
+    font: 16px 'mullerlight';
+    color: #686868;
+  }
+  .contacts__form__btn {
+    width: 290px;
+    height: 56px;
+    margin: 0 auto;
+  }
+  #map {
+    width: 100%;
+    height: 600px;
+  }
+}
+@media only screen and (min-width: 320px) and (max-width: 1100px) {
+  .contacts {
+    height: auto;
+    margin-bottom: 60px;
+  }
+  .contacts__form input[type="text"] {
+    margin-bottom: 38px;
+    width: 100%;
+    padding: 0 20px;
+    height: 60px;
+    border: 1px solid #80a535;
+    border-radius: 3px;
+    font: 16px 'mullerlight';
+    color: #686868;
+  }
+  .contacts__form input[type="submit"] {
+    border: 0;
+    border-radius: 3px;
+    width: 290px;
+    height: 56px;
+    margin: 0 auto;
+    margin-top: 6px;
+  }
+  .contacts__form input[type="submit"]:hover {
+    background: #000;
+  }
+  .contacts__form textarea {
+    margin-bottom: 38px;
+    width: 100%;
+    height: 160px;
+    resize: none;
+    padding: 20px;
+    border: 1px solid #80a535;
+    border-radius: 3px;
+    font: 16px 'mullerlight';
+    color: #686868;
+  }
+  .contacts__form__btn {
+    width: 290px;
+    height: 56px;
+    margin: 0 auto;
+  }
+  #map {
+    width: 100%;
+    height: 600px;
   }
 }
 @media only screen and (min-width: 1100px) {
@@ -2102,6 +2102,9 @@ ul {
   }
 }
 @media only screen and (min-width: 1100px) {
+  .grid-test {
+    background: #f00;
+  }
   .portfolio {
     height: 1482px;
     background: url('../img/portfolio-bg.jpg') no-repeat center;
@@ -2123,8 +2126,9 @@ ul {
     margin: 0 auto;
   }
   .portfolio-slider {
-    margin: 0 auto;
-    width: 1400px;
+    float: left;
+    margin-left: -15px;
+    width: 1000px;
     height: auto;
   }
   ul.rslides1_tabs {
@@ -2176,7 +2180,7 @@ ul {
   }
   .portfolio-slider li {
     list-style: none;
-    width: 1400px;
+    width: 1000px;
   }
   .portfolio-slider .prev {
     top: 422px;
@@ -2199,7 +2203,7 @@ ul {
   }
   .portfolio-slider .next {
     top: 422px;
-    right: -8%;
+    right: -28%;
     margin-left: -2%;
     position: absolute;
     display: block;
@@ -2228,16 +2232,19 @@ ul {
     position: relative;
     margin: 0 auto;
     margin-bottom: 36px;
-    width: 1360px;
+    width: 1200px;
     height: 1180px;
     overflow: hidden;
     background: #fff;
   }
   .portfolio__item__preview {
     margin: 40px auto;
-    width: 1295px;
+    margin-left: 40px;
+    float: left;
+    width: 1120px;
     height: 692px;
     background: #f00;
+    overflow: hidden;
   }
   .portfolio__item__terms {
     padding-left: 30px;
@@ -2315,16 +2322,17 @@ ul {
     color: #000;
   }
   .portfolio__item__mini-previews {
+    margin: 0 0 0 26px;
     height: 264px;
   }
   .portfolio__item__mini-previews li {
     margin: 14px;
     float: left;
-    width: 312px;
+    width: 259px;
   }
   .portfolio__item__mini-previews img {
-    width: 312px;
-    height: 264px;
+    width: 259px;
+    height: 214px;
     display: block;
   }
 }
