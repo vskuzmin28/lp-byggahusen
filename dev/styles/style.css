@@ -678,6 +678,100 @@ ul {
   }
 }
 @media only screen and (min-width: 1100px) {
+  .contacts {
+    height: auto;
+    margin-bottom: 60px;
+  }
+  .contacts__form input[type="text"] {
+    margin-bottom: 38px;
+    width: 100%;
+    padding: 0 20px;
+    height: 60px;
+    border: 1px solid #80a535;
+    border-radius: 3px;
+    font: 16px 'mullerlight';
+    color: #686868;
+  }
+  .contacts__form input[type="submit"] {
+    border: 0;
+    border-radius: 3px;
+    width: 290px;
+    height: 56px;
+    margin: 0 auto;
+    margin-top: 6px;
+  }
+  .contacts__form input[type="submit"]:hover {
+    background: #000;
+  }
+  .contacts__form textarea {
+    margin-bottom: 38px;
+    width: 100%;
+    height: 160px;
+    resize: none;
+    padding: 20px;
+    border: 1px solid #80a535;
+    border-radius: 3px;
+    font: 16px 'mullerlight';
+    color: #686868;
+  }
+  .contacts__form__btn {
+    width: 290px;
+    height: 56px;
+    margin: 0 auto;
+  }
+  #map {
+    width: 100%;
+    height: 600px;
+  }
+}
+@media only screen and (min-width: 320px) and (max-width: 1100px) {
+  .contacts {
+    height: auto;
+    margin-bottom: 60px;
+  }
+  .contacts__form input[type="text"] {
+    margin-bottom: 38px;
+    width: 100%;
+    padding: 0 20px;
+    height: 60px;
+    border: 1px solid #80a535;
+    border-radius: 3px;
+    font: 16px 'mullerlight';
+    color: #686868;
+  }
+  .contacts__form input[type="submit"] {
+    border: 0;
+    border-radius: 3px;
+    width: 290px;
+    height: 56px;
+    margin: 0 auto;
+    margin-top: 6px;
+  }
+  .contacts__form input[type="submit"]:hover {
+    background: #000;
+  }
+  .contacts__form textarea {
+    margin-bottom: 38px;
+    width: 100%;
+    height: 160px;
+    resize: none;
+    padding: 20px;
+    border: 1px solid #80a535;
+    border-radius: 3px;
+    font: 16px 'mullerlight';
+    color: #686868;
+  }
+  .contacts__form__btn {
+    width: 290px;
+    height: 56px;
+    margin: 0 auto;
+  }
+  #map {
+    width: 100%;
+    height: 600px;
+  }
+}
+@media only screen and (min-width: 1100px) {
   .dream-house {
     height: auto;
     background: #f9f9f9;
@@ -898,100 +992,6 @@ ul {
   .dream-house__item-two__conteiner__content a:hover:hover {
     background: #000;
     color: #fff;
-  }
-}
-@media only screen and (min-width: 1100px) {
-  .contacts {
-    height: auto;
-    margin-bottom: 60px;
-  }
-  .contacts__form input[type="text"] {
-    margin-bottom: 38px;
-    width: 100%;
-    padding: 0 20px;
-    height: 60px;
-    border: 1px solid #80a535;
-    border-radius: 3px;
-    font: 16px 'mullerlight';
-    color: #686868;
-  }
-  .contacts__form input[type="submit"] {
-    border: 0;
-    border-radius: 3px;
-    width: 290px;
-    height: 56px;
-    margin: 0 auto;
-    margin-top: 6px;
-  }
-  .contacts__form input[type="submit"]:hover {
-    background: #000;
-  }
-  .contacts__form textarea {
-    margin-bottom: 38px;
-    width: 100%;
-    height: 160px;
-    resize: none;
-    padding: 20px;
-    border: 1px solid #80a535;
-    border-radius: 3px;
-    font: 16px 'mullerlight';
-    color: #686868;
-  }
-  .contacts__form__btn {
-    width: 290px;
-    height: 56px;
-    margin: 0 auto;
-  }
-  #map {
-    width: 100%;
-    height: 600px;
-  }
-}
-@media only screen and (min-width: 320px) and (max-width: 1100px) {
-  .contacts {
-    height: auto;
-    margin-bottom: 60px;
-  }
-  .contacts__form input[type="text"] {
-    margin-bottom: 38px;
-    width: 100%;
-    padding: 0 20px;
-    height: 60px;
-    border: 1px solid #80a535;
-    border-radius: 3px;
-    font: 16px 'mullerlight';
-    color: #686868;
-  }
-  .contacts__form input[type="submit"] {
-    border: 0;
-    border-radius: 3px;
-    width: 290px;
-    height: 56px;
-    margin: 0 auto;
-    margin-top: 6px;
-  }
-  .contacts__form input[type="submit"]:hover {
-    background: #000;
-  }
-  .contacts__form textarea {
-    margin-bottom: 38px;
-    width: 100%;
-    height: 160px;
-    resize: none;
-    padding: 20px;
-    border: 1px solid #80a535;
-    border-radius: 3px;
-    font: 16px 'mullerlight';
-    color: #686868;
-  }
-  .contacts__form__btn {
-    width: 290px;
-    height: 56px;
-    margin: 0 auto;
-  }
-  #map {
-    width: 100%;
-    height: 600px;
   }
 }
 @media only screen and (min-width: 1100px) {
@@ -1444,7 +1444,7 @@ ul {
 }
 @media only screen and (min-width: 1100px) {
   .main-screen {
-    height: 906px;
+    height: 606px;
     background: url('../img/main-screen.jpg') no-repeat center;
     background-size: cover;
     color: #000;
@@ -1456,7 +1456,7 @@ ul {
     padding: 32px;
     display: inline-block;
     background-color: rgba(0, 0, 0, 0.6);
-    font: 42px 'mullerbold';
+    font: 32px 'mullerbold';
     color: #fff;
   }
   .main-screen ul {
@@ -1472,13 +1472,13 @@ ul {
     margin-left: 40px;
     position: absolute;
     content: "+";
-    font: 30px 'mullermedium';
+    font: 16px 'mullermedium';
     color: #fff;
   }
   .main-screen ul li span {
     padding: 18px 64px;
     background-color: rgba(0, 0, 0, 0.6);
-    font: 30px 'mullermedium';
+    font: 16px 'mullermedium';
     color: #fff;
   }
 }
@@ -2128,7 +2128,7 @@ ul {
   .portfolio-slider {
     float: left;
     margin-left: -15px;
-    width: 1000px;
+    width: 1200px;
     height: auto;
   }
   ul.rslides1_tabs {
@@ -2270,7 +2270,7 @@ ul {
     position: relative;
   }
   .portfolio__item__tabs__controls {
-    margin-top: -68px;
+    margin-top: 708px;
     position: absolute;
     height: 55px;
     width: 100%;
@@ -2303,8 +2303,16 @@ ul {
   .portfolio__item__tabs__tab-two {
     float: left;
   }
+  .portfolio__item__tabs__tab-content-one {
+    height: auto;
+  }
+  .portfolio__item__tabs__tab-content-two {
+    height: auto;
+  }
   .portfolio__item__tabs__tab-content-one table,
   .portfolio__item__tabs__tab-content-two table {
+    height: auto;
+    background: #fff;
     width: 100%;
   }
   .portfolio__item__tabs__tab-content-one table td,
@@ -2329,6 +2337,7 @@ ul {
     margin: 14px;
     float: left;
     width: 259px;
+    margin-top: 140px;
   }
   .portfolio__item__mini-previews img {
     width: 259px;
